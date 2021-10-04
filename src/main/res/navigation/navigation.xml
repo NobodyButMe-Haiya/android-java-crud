@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/navList">
+
+
+<fragment
+    android:name="com.youtube.crudyoutube.ListFragment"
+    android:id="@+id/navList"
+    tools:layout="@layout/list_layout"
+    android:label="List" >
+    <action
+        android:id="@+id/action_navList_to_navForm"
+        app:destination="@id/navForm" />
+</fragment>
+    <fragment
+        android:name="com.youtube.crudyoutube.FormFragment"
+        android:id="@+id/navForm"
+        tools:layout="@layout/form_layout"
+        android:label="Form" />
+
+
+</navigation>

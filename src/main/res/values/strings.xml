@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Crud Youtube</string>
+    <!-- don't forget to add here -->
+    <string name="age">Age</string>
+    <string name="name">Name</string>
+    <string name="list">List</string>
+    <string name="create">Create</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+</resources>

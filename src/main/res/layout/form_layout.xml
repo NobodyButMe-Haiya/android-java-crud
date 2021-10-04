@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+            <Button
+                android:id="@+id/listButton"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:text="@string/list" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/list"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:text="@string/save" />
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <EditText
+            android:id="@+id/nameLayoutDetail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/name"
+
+            />
+
+        <EditText
+            android:id="@+id/ageLayoutDetail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/age"
+
+            />
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:padding="16dp"
+            android:backgroundTint="@color/red"
+            android:text="@string/delete" />
+    </LinearLayout>
+</LinearLayout>
